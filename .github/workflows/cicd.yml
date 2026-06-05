@@ -13,10 +13,10 @@ jobs:
 
     steps:
     - name: Checkout Source Code
-      uses: actions/actions/checkout@v4
+      uses: actions/checkout@v4
 
     - name: Set up the Node.js Environments
-      uses: actions/actions/setup-node@v4
+      uses: actions/setup-node@v4
       with:
         node-version: '18'
         cache: 'npm'
